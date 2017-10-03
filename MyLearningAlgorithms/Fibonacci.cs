@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithms
+namespace MyLearningAlgorithms
 {
     public class Fibonacci
     {
