@@ -5,7 +5,7 @@ namespace MyLearningAlgorithms
     public class Fibonacci
     {
 
-        public int GetFibonacci(int numberof)
+        public int GetFibonacciIterativeWay(int numberof)
         {
             int[] dataArray = new int[numberof + 1];
             dataArray[0] = 0;
@@ -16,7 +16,7 @@ namespace MyLearningAlgorithms
                 dataArray[i] = dataArray[i - 2] + dataArray[i - 1];
             }
 
-            return dataArray[numberof];
+            return dataArray[numberof-1];
         }
     }
 }
