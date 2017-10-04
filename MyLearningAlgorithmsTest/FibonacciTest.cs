@@ -13,7 +13,10 @@ namespace MyLearningAlgorithmsTest
             var fib = new Fibonacci();
             var data = fib.GetFibonacciIterativeWay(9);
 
-            Assert.AreEqual(21, data);
+            Assert.AreEqual(34, data);
+
+            data = fib.GetFibonacciReccursiveWay(9);
+            Assert.AreEqual(34, data);
         }
     }
 }
